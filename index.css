@@ -1,0 +1,290 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* THIS NAVIGATION */
+#logo{
+  width: 100%;
+  height: 100px;
+  background-color: #e93f36;
+  color: white;
+}
+
+.nav-content a:hover{
+  color: #fff854;
+}
+
+.nav-content ul {
+ list-style: none;
+ float: right;
+ background-color: #e93f36;
+ margin-top: -68px;
+}
+.nav-content ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-content ul li{
+display: inline-block;
+margin-top: -128px;
+padding: 20px;
+color: white;
+}
+/* OUR NAVIGATION END */
+
+
+/* this is HOME */
+.mainpage{
+  background:url("../images/img-MATUSA.png");
+  background-size: cover;
+  background-position: center;
+  padding: 370px;
+}
+/* end of home */
+
+
+/* this style of ABOUT US */
+#ABOUT-US{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background: #fff854;
+  width: 40%;
+  line-height: 2.7;
+}
+#ABOUT-US p{
+  line-height: 2.1;
+}
+
+.ORGANISATION {
+  width: 40%;
+  height: 30%;
+  padding: 50px;
+  float: right;
+  margin: -30rem 10rem 0rem 0rem;
+  font-size: 20px;
+  line-height: 1.9;
+  color: #fff854;
+}
+.ORGANISATION p{
+  color: black;
+  margin-top: -50px;
+  line-height: 1.5;
+}
+
+span{
+  color: #e9433b;
+}
+ .unions h2{
+   color: #e93f36;
+  font-size: 45px;
+}
+.unions p{
+  color: black;
+  font-size: 18px;
+}
+/* END OF ABOUT US */
+
+/* this  is a style of services */
+#SERVICES{
+  background-color:white;
+  display:block;
+  padding: 100px;
+  margin: 0 auto;
+}
+.offers h4{
+  margin-top: -35px;
+  float: left;
+  color: white;
+  font-size: 30px;
+  color: black;
+}
+
+.offers img{
+float: left;
+margin-left: -260px;
+margin-top:120px;
+justify-content:
+}
+
+.offers h5{
+  line-height: 3.5;
+  text-align: center;
+  font-size: 39px;
+  color: black;
+}
+.offers ol li{
+  color: black;
+  margin-left:360px;
+  line-height: 2.2;
+  font-size: 20px;
+}
+/* end of services */
+
+
+/* this is gallery style */
+#GALLERY{
+  padding: 200px;
+}
+#GALLERY h4{
+line-height: 1.5;
+margin: 30px;
+text-align: center;
+margin-top: -120px;
+font-size: 20px;
+}
+#GALLERY span{
+  color: #e93f36;
+}
+#GALLERY img{
+margin-top: 20px;
+height: 160px;
+
+}
+#GALLERY p{
+  font-size: 19px;
+  margin-top: 30px;
+  color: black;
+}
+
+#GALLERY{
+  border-left-style: solid;
+  border-color: #e93f36;
+  border-left: 100px solid #e93f36;
+  border-right-style: solid;
+  border-right: 100px solid #e93f36;
+}
+button{
+  margin-bottom: 25px;
+  padding: 16px 25px;
+  background-color:#191919;
+  color: white;
+  font-size: 15px;
+
+}
+button:hover {
+  background-color:#fff854;
+}
+/* this is the end of gallery */
+
+/* style of footer */
+footer{
+  margin-top: 10rem;
+  background: #191919;
+  padding: 60px 45px;
+}
+.foot p{
+  color: #fff;
+  text-align: center;
+}
+/* end of footer */
+
+
+/* contact form style */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid ;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e93f36;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#fff854;
+}
+
+.container {
+  line-height: 2.1;
+  margin-left: 30px;
+  font-size: 40px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 19px;
+}
+h6{
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.form-container {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 30px;
+  height: 90%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#contact-us{
+  padding: 100px;
+}
+/* emd of contact form style  */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #fff854;
+}
+
+/* its another  style contact form that contain Provinces */
+.provinces{
+margin-top: 18px;
+display: flex;
+}
+.pro-2{
+margin-left: 18px;
+}
+strong{
+  color: #e93f36;
+}
+ .provinces p{
+  color: black;
+}
+.pro-2{
+margin-right: -15rem;
+}
+/* end of the contact form */
