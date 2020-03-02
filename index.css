@@ -40,7 +40,7 @@ color: white;
 
 /* this is HOME */
 .mainpage{
-  background:url("../images/img-MATUSA.png");
+  background:url("img-MATUSA.png");
   background-size: cover;
   background-position: center;
   padding: 370px;
