@@ -155,9 +155,9 @@ height: 160px;
 #GALLERY{
   border-left-style: solid;
   border-color: #e93f36;
-  border-left: 100px solid #e93f36;
+  border-left: 100px solid #fff854;
   border-right-style: solid;
-  border-right: 100px solid #e93f36;
+  border-right: 100px solid #fff854;
 }
 button{
   margin-bottom: 25px;
